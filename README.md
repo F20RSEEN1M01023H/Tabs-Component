@@ -7,7 +7,7 @@ This project demonstrates **two implementations** of a Tabs component using **Re
 
 ---
 
-## Tabs Components (Resuable)
+## Tabs Components (Resuable) Hammad
 
 ![Both Tabs](./src/assets/tabs.png)
 
@@ -71,12 +71,6 @@ npm run dev
 
 Visit 👉 http://localhost:5173
 
----
-
-## 📸 Screenshots
-🔹 BasicTab Component
-
-🔹 Reusable Tabs Component
-
----
 ```
+
+---

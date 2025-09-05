@@ -5,7 +5,7 @@ const BasicTab = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4">
-      <h1 className="text-5xl font-bold text-slate-800 font-mono mb-10">
+      <h1 className="text-5xl font-bold text-slate-800 font-mono mb-11">
         Tabs Component
       </h1>
       <div className=" bg-slate-800 rounded-lg backdrop-blur-lg shadow-2xl p-10">
