@@ -1,12 +1,82 @@
-# React + Vite
+# 🏷️ React Tabs Component Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates **two implementations** of a Tabs component using **React and Tailwind CSS**:
 
-Currently, two official plugins are available:
+1. **BasicTab** – A simple tabs implementation with fixed "Home, About, Contact" tabs.
+2. **Tabs** – A **reusable and dynamic tabs component** that accepts tab data (label + content) as props, making it more flexible and scalable.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Tabs Components (Resuable)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Both Tabs](./src/assets/tabs.png)
+
+---
+
+## 📌 Features
+
+- ✅ Switch between multiple tabs (Home, About, Contact, etc.)
+- ✅ Styled with **Tailwind CSS** for a modern UI
+- ✅ Two versions included:
+  - **Basic Tab:** Hardcoded example with fixed tabs.
+  - **Reusable Tabs:** Accepts `tabs` prop for dynamic tab rendering.
+- ✅ Responsive & minimal design
+- ✅ Beginner-friendly project to understand **React state management**
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ **React** – UI library
+- 🎨 **Tailwind CSS** – Styling framework
+- 🖥️ **Vite / CRA** – Development setup (depending on your setup)
+
+---
+
+## 📂 Folder Structure
+
+react-tabs-project/
+│
+├── src/
+│ ├── App.js
+│ ├── components/
+│ │ ├── BasicTab.jsx
+│ │ ├── Tabs.jsx
+│ ├── index.css
+│ └── main.jsx
+│
+├── package.json
+├── tailwind.config.js
+└── README.md
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the repo
+
+```bash
+git clone https://github.com/your-username/react-tabs-project.git
+cd react-tabs-project
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Run the project
+npm run dev
+
+4️⃣ Open in browser
+
+Visit 👉 http://localhost:5173
+
+---
+
+## 📸 Screenshots
+🔹 BasicTab Component
+
+🔹 Reusable Tabs Component
+
+---
+```
